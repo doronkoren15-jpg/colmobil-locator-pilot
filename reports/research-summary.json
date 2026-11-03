@@ -1,0 +1,309 @@
+{
+  "collected_at": "2026-11-03",
+  "brand_coverage": [
+    {
+      "brand": "Hyundai",
+      "activity": "new",
+      "records": 27,
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/"
+    },
+    {
+      "brand": "Mitsubishi",
+      "activity": "new",
+      "records": 21,
+      "source": "https://www.colmobil.co.il/show-rooms/mitsubishi/"
+    },
+    {
+      "brand": "JAECOO",
+      "activity": "new",
+      "records": 21,
+      "source": "https://www.colmobil.co.il/show-rooms/jaecoo/"
+    },
+    {
+      "brand": "OMODA",
+      "activity": "new",
+      "records": 21,
+      "source": "https://www.colmobil.co.il/show-rooms/omoda/"
+    },
+    {
+      "brand": "ORA",
+      "activity": "new",
+      "records": 20,
+      "source": "https://www.colmobil.co.il/show-rooms/ora/"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "activity": "new",
+      "records": 7,
+      "source": "https://www.colmobil.co.il/show-rooms/mercedes/"
+    },
+    {
+      "brand": "Genesis",
+      "activity": "new",
+      "records": 3,
+      "source": "https://www.colmobil.co.il/show-rooms/genesis/"
+    },
+    {
+      "brand": "smart",
+      "activity": "new",
+      "records": 6,
+      "source": "https://www.colmobil.co.il/show-rooms/smart/"
+    },
+    {
+      "brand": null,
+      "activity": "trade",
+      "records": 15,
+      "source": "https://www.colmobil.co.il/trade/centers/"
+    },
+    {
+      "brand": null,
+      "activity": "luxury",
+      "records": 5,
+      "source": "https://colmobil-luxury-trade.co.il/centers/"
+    }
+  ],
+  "locations": 64,
+  "offerings": 147,
+  "merged_records": 83,
+  "issues": [
+    {
+      "name": "אולם תצוגה מיצובישי עפולה",
+      "source": "https://www.colmobil.co.il/show_rooms/mitsubishi_afula/",
+      "reason": "טלפון מקוצר מרובה קווים במקור; אין חיוג אוטומטי עד בירור: 04-6093021/2"
+    }
+  ],
+  "missing_locality_coordinates": [
+    {
+      "id": "3869",
+      "name": "אביגיל"
+    },
+    {
+      "id": "3905",
+      "name": "אביה"
+    },
+    {
+      "id": "3987",
+      "name": "אדוריים"
+    },
+    {
+      "id": "3875",
+      "name": "אחיה"
+    },
+    {
+      "id": "3891",
+      "name": "איבי הנחל"
+    },
+    {
+      "id": "3898",
+      "name": "אלון"
+    },
+    {
+      "id": "3906",
+      "name": "אסיף"
+    },
+    {
+      "id": "1298",
+      "name": "אתגר"
+    },
+    {
+      "id": "3864",
+      "name": "בית חוגלה"
+    },
+    {
+      "id": "3499",
+      "name": "בר כוכבא"
+    },
+    {
+      "id": "3757",
+      "name": "ברוש הבקעה"
+    },
+    {
+      "id": "3897",
+      "name": "בתרון"
+    },
+    {
+      "id": "3783",
+      "name": "גבעות"
+    },
+    {
+      "id": "3862",
+      "name": "גבעות הרואה"
+    },
+    {
+      "id": "3893",
+      "name": "גודר"
+    },
+    {
+      "id": "3758",
+      "name": "גנים"
+    },
+    {
+      "id": "3907",
+      "name": "הר בזק"
+    },
+    {
+      "id": "3400",
+      "name": "חברון"
+    },
+    {
+      "id": "3642",
+      "name": "חומש"
+    },
+    {
+      "id": "3870",
+      "name": "חרשה"
+    },
+    {
+      "id": "3873",
+      "name": "טל מנשה"
+    },
+    {
+      "id": "3896",
+      "name": "יונדב"
+    },
+    {
+      "id": "3729",
+      "name": "כדים"
+    },
+    {
+      "id": "3902",
+      "name": "כנפי שחר"
+    },
+    {
+      "id": "3889",
+      "name": "כרם רעים"
+    },
+    {
+      "id": "3909",
+      "name": "כרמי עוז"
+    },
+    {
+      "id": "3901",
+      "name": "לח\"י"
+    },
+    {
+      "id": "3892",
+      "name": "לשם"
+    },
+    {
+      "id": "3871",
+      "name": "מגרון"
+    },
+    {
+      "id": "3863",
+      "name": "מלאכי השלום"
+    },
+    {
+      "id": "3879",
+      "name": "מעוז"
+    },
+    {
+      "id": "3903",
+      "name": "מצוקי ארץ"
+    },
+    {
+      "id": "3899",
+      "name": "מצפה זיף"
+    },
+    {
+      "id": "3865",
+      "name": "משמר יהודה"
+    },
+    {
+      "id": "3877",
+      "name": "נווה גדיד"
+    },
+    {
+      "id": "3876",
+      "name": "נופי פרת"
+    },
+    {
+      "id": "3887",
+      "name": "נזר שומרון"
+    },
+    {
+      "id": "3890",
+      "name": "נריה"
+    },
+    {
+      "id": "3908",
+      "name": "סחלב"
+    },
+    {
+      "id": "3874",
+      "name": "עדי עד"
+    },
+    {
+      "id": "3880",
+      "name": "עיבל"
+    },
+    {
+      "id": "3904",
+      "name": "עין ייט\"ב"
+    },
+    {
+      "id": "3861",
+      "name": "עשהאל"
+    },
+    {
+      "id": "3922",
+      "name": "פני קדם"
+    },
+    {
+      "id": "3894",
+      "name": "פרשים"
+    },
+    {
+      "id": "3895",
+      "name": "קדם ערבה"
+    },
+    {
+      "id": "3923",
+      "name": "קרן יער"
+    },
+    {
+      "id": "3711",
+      "name": "שא-נור"
+    },
+    {
+      "id": "3872",
+      "name": "שבות רחל"
+    },
+    {
+      "id": "3868",
+      "name": "שחרית"
+    },
+    {
+      "id": "3910",
+      "name": "שירה"
+    },
+    {
+      "id": "3878",
+      "name": "תמרה"
+    }
+  ],
+  "source_year": 2023,
+  "transform": "unavailable until proj_trans is called",
+  "source_conflicts": [
+    {
+      "offering_id": "OFF-7388be4f4721",
+      "name": "אולם תצוגה ג’אקו אדומית אילת",
+      "listing_phone": "08-6378333",
+      "detail_phone_links": "046093026; 086378333",
+      "detail_displayed_phones": "046093000; 046093026",
+      "source": "https://www.colmobil.co.il/show_rooms/eilat-2/",
+      "reason": "סתירת טלפון בין הרשימה, קישורי החיוג והטקסט בדף הסניף; נדרש בירור ארגוני"
+    },
+    {
+      "offering_id": "OFF-cfcd87f3fca9",
+      "name": "אולם תצוגה אומודה אדומית אילת",
+      "listing_phone": "08-6378333",
+      "detail_phone_links": "046093026; 086378333",
+      "detail_displayed_phones": "046093000; 046093026",
+      "source": "https://www.colmobil.co.il/show_rooms/eilat-2-2/",
+      "reason": "סתירת טלפון בין הרשימה, קישורי החיוג והטקסט בדף הסניף; נדרש בירור ארגוני"
+    }
+  ],
+  "nearby_distinct_address_pairs": 13,
+  "detail_checks_succeeded": 13
+}

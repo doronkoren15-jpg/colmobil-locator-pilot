@@ -1,0 +1,17 @@
+{
+  "kind": "demo",
+  "localities": 2,
+  "localities_with_coordinates": 1,
+  "locations": 7,
+  "rankable_locations": 7,
+  "offerings": 8,
+  "excluded_localities": [
+    {
+      "id": "DEMO-MISSING",
+      "name": "יישוב הדגמה ללא מיקום",
+      "reason": "נתון סינתטי ללא מיקום"
+    }
+  ],
+  "excluded_locations": [],
+  "pending_offerings": []
+}
