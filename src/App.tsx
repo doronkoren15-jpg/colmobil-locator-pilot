@@ -1,9 +1,15 @@
 import { useEffect, useMemo, useState } from 'react'
 import { LocalitySearch } from './components/LocalitySearch'
 import { ResultCard } from './components/ResultCard'
-import { availableBrands, findNearest, hasVerifiedCoordinates } from './lib/locator'
+import {
+  availableBrandFilters,
+  brandFilterLabel,
+  findNearest,
+  hasVerifiedCoordinates,
+} from './lib/locator'
+import colmobilLogo from './assets/colmobil-logo.svg'
 import { loadDataset } from './lib/load'
-import { activities, activityNames, brandNames } from './lib/schema'
+import { activities, activityNames } from './lib/schema'
 import type { Activity, Dataset, Locality } from './lib/schema'
 import './App.css'
 
@@ -27,7 +33,10 @@ export default function App() {
       })
     return () => controller.abort()
   }, [kind, attempt])
-  const brands = useMemo(() => (data ? availableBrands(data, activity) : []), [data, activity])
+  const brands = useMemo(
+    () => (data ? availableBrandFilters(data, activity) : []),
+    [data, activity],
+  )
   const results = useMemo(
     () => (data && locality ? findNearest(data, locality, activity, brand) : null),
     [data, locality, activity, brand],
@@ -65,7 +74,7 @@ export default function App() {
   }
   function changeActivity(next: Activity) {
     setActivity(next)
-    if (!data || !availableBrands(data, next).includes(brand)) setBrand('')
+    if (!data || !availableBrandFilters(data, next).includes(brand)) setBrand('')
   }
   function retry() {
     setError('')
@@ -77,13 +86,14 @@ export default function App() {
       <header className="site-header">
         <div className="header-inner">
           <div className="wordmark">
-            <span className="brand-symbol" aria-hidden="true">
-              כ
-            </span>
-            <div>
-              <strong>כלמוביל</strong>
-              <span>איתור נקודות מכירה</span>
-            </div>
+            <img
+              className="company-logo"
+              src={colmobilLogo}
+              alt="כלמוביל Colmobil"
+              width="150"
+              height="55"
+            />
+            <span className="wordmark-caption">איתור נקודות מכירה</span>
           </div>
           <span className="internal-label">כלי עבודה לנציגי המכירות</span>
         </div>
@@ -154,7 +164,7 @@ export default function App() {
                   <option value="">כל המותגים</option>
                   {brands.map((b) => (
                     <option key={b} value={b}>
-                      {brandNames[b] || b}
+                      {brandFilterLabel(b)}
                     </option>
                   ))}
                 </select>
