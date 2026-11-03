@@ -85,6 +85,12 @@ npm run data:geocode -- LOCATION_ID
 
 המסירה נבדקה בפועל כמפורט ב-`reports/verification.md`. אין התחברות, CRM, מפה, ניהול מלאי או מערכת ניהול במוצר זה.
 
+## לוגו ומסנן מותגים
+
+הלוגו נשמר מקומית ב־`src/assets/colmobil-logo.svg`, מתוך אתר כלמוביל הרשמי, ונבדק מול הרפרנס שסופק. מקור: https://www.colmobil.co.il/_next/static/media/logo.3-pcziwhx0l14.svg (4.11.2026). הלוגו שייך לכלמוביל; אינו נטען משירות חיצוני בזמן השימוש.
+
+במסנן מופיעה אפשרות משותפת `OMODA / JAECOO`, המחפשת בשני המותגים תוך איחוד לפי מיקום. קשרי מותג–פעילות בקובצי הנתונים נשארים נפרדים ומדויקים.
+
 ## עדכונים דרך GitHub ו-Netlify
 
 הריפו המיועד הוא https://github.com/doronkoren15-jpg/colmobil-locator-pilot, והאתר הקיים הוא https://colmobil-locator-pilot.netlify.app. יש לחבר את הריפו לפרויקט Netlify הקיים כדי לשמור על כתובת האתר.
