@@ -1,0 +1,61 @@
+import type { Dataset, Locality, Location, Offering } from '../src/lib/schema'
+export const locality: Locality = {
+  locality_id: '1',
+  name_he: 'רעננה',
+  aliases: ['Ra’anana', 'רעננה חלופי'],
+  source_url: 'https://example.org',
+  source_date: '2026-11-03',
+  lat: 32,
+  lng: 35,
+  coord_status: 'verified',
+  coord_source: 'test',
+  coord_method: 'test',
+  coord_verified_at: '2026-11-03',
+  notes: '',
+}
+export const location = (id: string, lat = 32.01): Location => ({
+  location_id: id,
+  display_name: id,
+  address: 'כתובת בדיקה',
+  city: 'יישוב בדיקה',
+  active: true,
+  lat,
+  lng: 35,
+  coord_status: 'verified',
+  coord_source: 'test',
+  coord_method: 'test',
+  coord_verified_at: '2026-11-03',
+  notes: '',
+})
+export const offering = (
+  id: string,
+  location_id: string,
+  activity: Offering['activity'] = 'new',
+  brand: string | null = 'Hyundai',
+): Offering => ({
+  offering_id: id,
+  location_id,
+  display_name: id,
+  activity,
+  brand,
+  operator: '',
+  phone: '03-1234567',
+  status: 'active',
+  verification: 'verified',
+  source_url: 'https://example.org',
+  verified_at: '2026-11-03',
+  notes: '',
+})
+export const dataset = (): Dataset => ({
+  schema_version: 1,
+  kind: 'official',
+  generated_at: '2026-11-03T00:00:00.000Z',
+  localities: [locality],
+  locations: [location('A'), location('B', 32.02)],
+  offerings: [
+    offering('a', 'A'),
+    offering('a-m', 'A', 'new', 'Mitsubishi'),
+    offering('a-t', 'A', 'trade', null),
+    offering('b', 'B', 'luxury', null),
+  ],
+})
