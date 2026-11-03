@@ -1,0 +1,3 @@
+﻿locality_id,name_he,aliases,source_url,source_date,lat,lng,coord_status,coord_source,coord_method,coord_verified_at,notes
+DEMO-1,יישוב הדגמה,"[""דמו""]",https://example.invalid/demo,2026-11-03,32,35,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-MISSING,יישוב הדגמה ללא מיקום,[],https://example.invalid/demo,2026-11-03,,,missing,,,,נתון סינתטי ללא מיקום

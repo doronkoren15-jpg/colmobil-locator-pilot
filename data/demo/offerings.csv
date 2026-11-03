@@ -1,0 +1,9 @@
+﻿offering_id,location_id,display_name,activity,brand,operator,phone,status,verification,source_url,verified_at,notes
+DEMO-O1-Hyundai,DEMO-L1,נקודת הדגמה 1,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O1-Mitsubishi,DEMO-L1,נקודת הדגמה 1,new,Mitsubishi,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O2-Hyundai,DEMO-L2,נקודת הדגמה 2,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O3-Hyundai,DEMO-L3,נקודת הדגמה 3,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O4-Hyundai,DEMO-L4,נקודת הדגמה 4,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O5-Hyundai,DEMO-L5,נקודת הדגמה 5,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O6-Hyundai,DEMO-L6,נקודת הדגמה 6,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-O7-Hyundai,DEMO-L7,נקודת הדגמה 7,new,Hyundai,הדגמה,,active,verified,https://example.invalid/demo,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד

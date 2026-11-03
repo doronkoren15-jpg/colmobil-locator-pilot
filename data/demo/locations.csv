@@ -1,0 +1,8 @@
+﻿location_id,display_name,address,city,active,lat,lng,coord_status,coord_source,coord_method,coord_verified_at,notes
+DEMO-L1,נקודת הדגמה 1,כתובת הדגמה 1 (סינתטית),יישוב הדגמה,true,32.01,35.005,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-L2,נקודת הדגמה 2,כתובת הדגמה 2 (סינתטית),יישוב הדגמה,true,32.02,35.01,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-L3,נקודת הדגמה 3,כתובת הדגמה 3 (סינתטית),יישוב הדגמה,true,32.03,35.015,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-L4,נקודת הדגמה 4,כתובת הדגמה 4 (סינתטית),יישוב הדגמה,true,32.04,35.02,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-L5,נקודת הדגמה 5,כתובת הדגמה 5 (סינתטית),יישוב הדגמה,true,32.05,35.025,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-L6,נקודת הדגמה 6,כתובת הדגמה 6 (סינתטית),יישוב הדגמה,true,32.06,35.03,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
+DEMO-L7,נקודת הדגמה 7,כתובת הדגמה 7 (סינתטית),יישוב הדגמה,true,32.07,35.035,verified,synthetic,synthetic_fixture,2026-11-03,נתון סינתטי לבדיקת ממשק בלבד
