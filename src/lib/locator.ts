@@ -83,6 +83,25 @@ export function availableBrands(data: Dataset, activity: Activity): string[] {
     ),
   ].sort((a, b) => (brandNames[a] || a).localeCompare(brandNames[b] || b, 'he'))
 }
+export const combinedBrand = 'OMODA-JAECOO'
+export function brandFilterLabel(brand: string): string {
+  return brand === combinedBrand ? 'OMODA / JAECOO' : brandNames[brand] || brand
+}
+export function availableBrandFilters(data: Dataset, activity: Activity): string[] {
+  return [
+    ...new Set(
+      availableBrands(data, activity).map((brand) =>
+        brand === 'OMODA' || brand === 'JAECOO' ? combinedBrand : brand,
+      ),
+    ),
+  ].sort((a, b) => brandFilterLabel(a).localeCompare(brandFilterLabel(b), 'he'))
+}
+function matchesBrand(offering: Offering, brand: string): boolean {
+  if (!brand) return true
+  return brand === combinedBrand
+    ? offering.brand === 'OMODA' || offering.brand === 'JAECOO'
+    : offering.brand === brand
+}
 export function findNearest(
   data: Dataset,
   locality: Locality,
@@ -92,7 +111,7 @@ export function findNearest(
   if (!hasVerifiedCoordinates(locality)) return { matches: [], excluded: 0, total: 0 }
   const grouped = new Map<string, Offering[]>()
   for (const o of data.offerings) {
-    if (o.status !== 'active' || o.activity !== activity || (brand && o.brand !== brand)) continue
+    if (o.status !== 'active' || o.activity !== activity || !matchesBrand(o, brand)) continue
     grouped.set(o.location_id, [...(grouped.get(o.location_id) || []), o])
   }
   const matches: Match[] = []
