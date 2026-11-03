@@ -87,12 +87,12 @@ describe('activity–brand filtering and deduplication', () => {
       ).matches,
     ).toEqual([])
   })
-  it('sorts precise distances before rounding and limits to five', () => {
+  it('sorts precise distances before rounding and limits to three', () => {
     const d = dataset()
     d.locations = Array.from({ length: 7 }, (_, i) => location(String(i), 32 + (7 - i) * 0.00001))
     d.offerings = d.locations.map((l) => offering(l.location_id, l.location_id))
     const r = findNearest(d, locality, 'new', '')
-    expect(r.matches.map((m) => m.location.location_id)).toEqual(['6', '5', '4', '3', '2'])
+    expect(r.matches.map((m) => m.location.location_id)).toEqual(['6', '5', '4'])
     expect(r.total).toBe(7)
   })
   it('breaks exact distance ties deterministically', () => {
