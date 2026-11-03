@@ -10,7 +10,7 @@ test('real data: Hebrew selection, all eight brands, live filters, links and no 
   await expect(page.getByLabel('מותג').locator('option')).toHaveCount(9)
   await page.getByLabel('יישוב הלקוח').fill('רענ')
   await page.getByRole('option').filter({ hasText: 'רעננה' }).click()
-  await expect(page.getByTestId('result-card')).toHaveCount(5)
+  await expect(page.getByTestId('result-card')).toHaveCount(3)
   await page.screenshot({
     path: `reports/preview-${testInfo.project.name.includes('Mobile') ? 'mobile' : 'desktop'}.png`,
     fullPage: true,
@@ -30,7 +30,7 @@ test('real data: Hebrew selection, all eight brands, live filters, links and no 
     await page.getByLabel('מותג').selectOption(brand)
     const cards = page.getByTestId('result-card')
     await expect(cards.first()).toBeVisible()
-    expect(await cards.count()).toBeLessThanOrEqual(5)
+    expect(await cards.count()).toBeLessThanOrEqual(3)
     for (const href of await cards
       .locator('a.waze-button')
       .evaluateAll((a) => a.map((l) => l.getAttribute('href')))) {
@@ -41,9 +41,9 @@ test('real data: Hebrew selection, all eight brands, live filters, links and no 
   }
   await page.getByRole('button', { name: 'טרייד אין', exact: true }).click()
   await expect(page.getByLabel('מותג')).toBeDisabled()
-  await expect(page.getByTestId('result-card')).toHaveCount(5)
+  await expect(page.getByTestId('result-card')).toHaveCount(3)
   await page.getByRole('button', { name: 'יוקרה', exact: true }).click()
-  await expect(page.getByTestId('result-card')).toHaveCount(5)
+  await expect(page.getByTestId('result-card')).toHaveCount(3)
   expect(requests).toEqual([])
   expect(exceptions).toEqual([])
   const phone = page.getByTestId('result-card').first().locator('a[href^="tel:"]')
@@ -66,7 +66,7 @@ test('demo, keyboard selection, no results, missing location and return to real 
   await page.getByLabel('יישוב הלקוח').fill('דמו')
   await page.getByLabel('יישוב הלקוח').press('ArrowDown')
   await page.getByLabel('יישוב הלקוח').press('Enter')
-  await expect(page.getByTestId('result-card')).toHaveCount(5)
+  await expect(page.getByTestId('result-card')).toHaveCount(3)
   await expect(page.getByRole('button', { name: 'ניווט מושבת בדמו' }).first()).toBeDisabled()
   expect(await page.locator('a[href^="tel:"]').count()).toBe(0)
   await page.getByRole('button', { name: 'יוקרה', exact: true }).click()
