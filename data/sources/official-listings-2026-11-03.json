@@ -1,0 +1,668 @@
+{
+  "collected_at": "2026-11-03",
+  "groups": [
+    {
+      "brand": "Hyundai",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "rows": [
+        "/show_rooms/jeruslaem-autoweek/|אולם תצוגה יונדאי אוטוויק ירושלים|האומן 19, ירושלים|9502*|https://waze.com/ul?ll=31.7508294,35.2081804&navigate=yes&zoom=9",
+        "/show_rooms/eilat/|אולם תצוגה יונדאי אילת|הדייג 20, אילת|08-6378333|https://waze.com/ul?ll=29.5694154,34.9599223&navigate=yes&zoom=9",
+        "/show_rooms/ashdod/|אולם תצוגה יונדאי אשדוד|רח' הבושם 10, א.ת. אשדוד|08-8638638|https://waze.com/ul?ll=31.8198014,34.6640067&navigate=yes&zoom=9",
+        "/show_rooms/ashkelon/|אולם תצוגה יונדאי אשקלון|הפנינים 3, אשקלון, ישראל|08-6750304|https://waze.com/ul?ll=31.661936,34.597416&navigate=yes&zoom=9",
+        "/show_rooms/beer-sheva/|אולם תצוגה יונדאי באר שבע|אברהם בן עמי 6, באר שבע|08-6248111|https://waze.com/ul?ll=31.2501777,34.82186799999999&navigate=yes&zoom=9",
+        "/show_rooms/bnei-brak/|אולם תצוגה יונדאי בני ברק|ששת הימים 22, בני ברק|03-7719101|https://waze.com/ul?ll=32.098444,34.826958&navigate=yes&zoom=9",
+        "/show_rooms/herzeliya/|אולם תצוגה יונדאי הרצליה|ישעיהו ליבוביץ' 7, הרצליה|09-7766300|https://waze.com/ul?ll=32.1618577,34.805932&navigate=yes&zoom=9",
+        "/show_rooms/hadera/|אולם תצוגה יונדאי חדרה|ח' קומבה 10, א.ת דרומי חדרה|04-6336666|https://waze.com/ul?ll=32.4461025,34.911002&navigate=yes&zoom=9",
+        "/show_rooms/holon-2/|אולם תצוגה יונדאי חולון|הפלד 10, א.ת. חולון|03-5599020|https://waze.com/ul?ll=32.0237217,34.7955332&navigate=yes&zoom=9",
+        "/show_rooms/michgan/|אולם תצוגה יונדאי טבריה|רבי חיים שפר 12, טבריה|04-8742080|https://waze.com/ul?ll=32.790223,35.532045&navigate=yes&zoom=9",
+        "/show_rooms/yahod/|אולם תצוגה יונדאי יהוד|אלטלף 7, א.ת יהוד|03-5360805|https://waze.com/ul?ll=32.0272003,34.898561&navigate=yes&zoom=9",
+        "/show_rooms/jeruslaem-general/|אולם תצוגה יונדאי כלמוביל פייר קניג ירושלים|גנרל פייר קניג 36, ירושלים, ישראל|02-5495600|https://waze.com/ul?ll=31.7515265,35.21351420000001&navigate=yes&zoom=9",
+        "/show_rooms/jeruslaem-shaul-hill/|אולם תצוגה יונדאי מגדל רם, גבעת שאול ירושלים|נחום חפצדי 17, ירושלים, ישראל|02-6400702|https://waze.com/ul?ll=31.7890296,35.1824318&navigate=yes&zoom=9",
+        "/show_rooms/modiin/|אולם תצוגה יונדאי מודיעין|המכונאי 17 מודיעין|08-6775050|https://waze.com/ul?ll=31.88679369999999,34.96013629999999&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west/|אולם תצוגה יונדאי מערב ראשון לציון|אצ\"ל 51, ראשון לציון|03-9677786|https://waze.com/ul?ll=31.99057479999999,34.7605277&navigate=yes&zoom=9",
+        "/show_rooms/haifa-merkaz/|אולם תצוגה יונדאי מרכז חיפה|דרך יפו 157, חיפה, ישראל|04-6107888|https://waze.com/ul?ll=32.8274578,34.98454359999999&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-center/|אולם תצוגה יונדאי מרכז ראשון לציון|דרך המכבים 48, ראשון לציון|03-9677766|https://waze.com/ul?ll=31.9811559,34.809778&navigate=yes&zoom=9",
+        "/show_rooms/nof-hagalil/|אולם תצוגה יונדאי נוף הגליל|העבודה 12, נצרת עילית|5431*|https://waze.com/ul?ll=32.7138695,35.3346728&navigate=yes&zoom=9",
+        "/show_rooms/nesher/|אולם תצוגה יונדאי נשר|דרך בר יהודה 30, נשר, ישראל|04-8467000|https://waze.com/ul?ll=32.78099,35.0347272&navigate=yes&zoom=9",
+        "/show_rooms/netanya/|אולם תצוגה יונדאי נתניה|פינקס 21, א.ת. ישן נתניה|09-8821676|https://waze.com/ul?ll=32.3190869,34.8745496&navigate=yes&zoom=9",
+        "/show_rooms/hyundai-tlv/|אולם תצוגה יונדאי סוכנות ראשית תל אביב|יגאל אלון 94, תל אביב-יפו, ישראל|03-5655444|https://waze.com/ul?ll=32.0685186,34.7941424&navigate=yes&zoom=9",
+        "/show_rooms/aco/|אולם תצוגה יונדאי עכו|עין המפרץ סנטר, עכו|04-9955000|https://waze.com/ul?ll=32.900316,35.1009164&navigate=yes&zoom=9",
+        "/show_rooms/afula/|אולם תצוגה יונדאי עפולה|קידרון 1, עפולה|04-6093026|https://waze.com/ul?ll=32.606847,35.298866&navigate=yes&zoom=9",
+        "/show_rooms/petach-tiqva/|אולם תצוגה יונדאי פתח תקווה|אבשלום גיסין 72, פתח תקווה|03-6307900|https://waze.com/ul?ll=32.0981185,34.8658552&navigate=yes&zoom=9",
+        "/show_rooms/shraoni/|אולם תצוגה יונדאי קריית שמונה|איזור תעשייה צפוני 1063, קרית שמונה|04-6817444|https://waze.com/ul?ll=33.216187,35.587746&navigate=yes&zoom=9",
+        "/show_rooms/rehovot/|אולם תצוגה יונדאי רחובות|המפוח 12, רחובות|02-6402020|https://waze.com/ul?ll=31.887009,34.78072&navigate=yes&zoom=9",
+        "/show_rooms/raanana/|אולם תצוגה יונדאי רעננה|התדהר 16, אזור התעשיה רעננה|09-7484468|https://waze.com/ul?ll=32.196197,34.8845745&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "Mitsubishi",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/mitsubishi/",
+      "rows": [
+        "/show_rooms/mitsubishi_eilat/|אולם תצוגה מיצובישי אילת|הדייג 20, אילת|08-6378333|https://waze.com/ul?ll=29.5694154,34.9599223&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_ashdod/|אולם תצוגה מיצובישי אשדוד|הבושם 10, אשדוד|08-8638637|https://waze.com/ul?ll=31.8198014,34.6640067&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_ashkelon/|אולם תצוגה מיצובישי אשקלון|הפנינים 3, אשקלון, ישראל|08-6751144|https://waze.com/ul?ll=31.661936,34.597416&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_beer_sheva/|אולם תצוגה מיצובישי באר שבע|עמל 2, א.ת מכתשים באר שבע|08-6250904|https://waze.com/ul?ll=31.2498141,34.8236025&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_bnei-brak/|אולם תצוגה מיצובישי בני ברק|ששת הימים 22, בני ברק|9241*|https://waze.com/ul?ll=32.098444,34.826958&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_hadera/|אולם תצוגה מיצובישי חדרה|קומבה 10, א.ת חדרה|04-6336666|https://waze.com/ul?ll=32.4461025,34.911002&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_holon/|אולם תצוגה מיצובישי חולון|רחוב פלד 10, חולון, ישראל|03-5583880|https://waze.com/ul?ll=32.0237217,34.7955332&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_haifa/|אולם תצוגה מיצובישי חיפה|יפו 145 א', חיפה|04-8522222|https://waze.com/ul?ll=32.826968,34.986084&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_michgan/|אולם תצוגה מיצובישי טבריה|יהודה הלוי, טבריה|04-6720315|https://waze.com/ul?ll=32.7890532,35.5335639&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_jerusalem/|אולם תצוגה מיצובישי ירושלים|גנרל פייר קניג 36, ירושלים|02-6783820|https://waze.com/ul?ll=31.7515265,35.2135142&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_modiin/|אולם תצוגה מיצובישי מודיעין|המכונאי 19, מודיעין מכבים רעות|08-9966677|https://waze.com/ul?ll=31.8861061,34.9597995&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_nof-hagalil/|אולם תצוגה מיצובישי נוף הגליל|העבודה 12, נוף הגליל|5431*|https://waze.com/ul?ll=32.7138695,35.3346728&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_natanya/|אולם תצוגה מיצובישי נתניה|פנקס 21, נתניה|09-8621177|https://waze.com/ul?ll=32.3190869,34.8745496&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_aco/|אולם תצוגה מיצובישי עכו|עין המפרץ, ישראל|04-9955000|https://waze.com/ul?ll=32.902581,35.09303999999999&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_afula/|אולם תצוגה מיצובישי עפולה|קדרון 1, עפולה|04-6093021/2|https://waze.com/ul?ll=32.606847,35.298866&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_petach-tikva/|אולם תצוגה מיצובישי פתח תקווה|גזית 7, פתח תקווה|03-6015360|https://waze.com/ul?ll=32.1044224,34.8979223&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_kiryat-shmona/|אולם תצוגה מיצובישי קריית שמונה|אזור תעשיה צפוני, קרית שמונה|04-6817444|https://waze.com/ul?ll=33.216187,35.587746&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_rishon-leziyon/|אולם תצוגה מיצובישי ראשון לציון|דרך המכבים 48, ראשון לציון|03-9012200|https://waze.com/ul?ll=31.9811559,34.809778&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_rehovot/|אולם תצוגה מיצובישי רחובות|רחוב מפוח 12, רחובות|08-6250904|https://waze.com/ul?ll=31.887009,34.78072&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_raanana/|אולם תצוגה מיצובישי רעננה|השיזף 1, רעננה, ישראל|09-7766400|https://waze.com/ul?ll=32.1929374,34.8841812&navigate=yes&zoom=9",
+        "/show_rooms/mitsubishi_tel-aviv/|אולם תצוגה מיצובישי תל אביב|יונה קרמנצקי 1, תל אביב יפו|03-5380700|https://waze.com/ul?ll=32.0670328,34.7935117&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "JAECOO",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/jaecoo/",
+      "rows": [
+        "/show_rooms/eilat-2/|אולם תצוגה ג’אקו אדומית אילת|הדייג 20, אילת, ישראל|08-6378333|https://waze.com/ul?ll=29.5691727,34.9599088&navigate=yes&zoom=9",
+        "/show_rooms/modiin-2-2/|אולם תצוגה ג'אקו אוטוויק מודיעין|המכונאי 17, מודיעין מכבים רעות, ישראל|08-6775050|https://waze.com/ul?ll=31.8870839,34.9603707&navigate=yes&zoom=9",
+        "/show_rooms/ashdod-2/|אולם תצוגה ג’אקו אשדוד|האורגים 2, אשדוד, ישראל|08-8638649|https://waze.com/ul?ll=31.8104884,34.6639187&navigate=yes&zoom=9",
+        "/show_rooms/beer-sheva-2/|אולם תצוגה ג’אקו באר שבע|סדנא 3, באר שבע, ישראל|*8650|https://waze.com/ul?ll=31.2514897,34.8223914&navigate=yes&zoom=9",
+        "/show_rooms/ein-hamifratz/|אולם תצוגה ג'אקו גפי מוטורס בע\"מ עכו|עין המפרץ סנטר, עין המפרץ, ישראל|04-9955000|https://waze.com/ul?ll=32.900316,35.1009164&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west-2-3/|אולם תצוגה ג’אקו הרצליה|הסדנאות 10, הרצליה, ישראל|09-7766300|https://waze.com/ul?ll=32.1609354,34.8063115&navigate=yes&zoom=9",
+        "/show_rooms/haifa-check-post-2/|אולם תצוגה ג’אקו חיפה|גוליאלמו מרקוני 18, חיפה, ישראל|04-9955000|https://waze.com/ul?ll=32.7894032,35.0337384&navigate=yes&zoom=9",
+        "/show_rooms/shaked-bnei-brak/|אולם תצוגה ג’אקו י.שקד בני ברק|דרך ששת הימים 22, בני ברק, ישראל|03-7719100|https://waze.com/ul?ll=32.098444,34.826958&navigate=yes&zoom=9",
+        "/show_rooms/jeruslaem-autoweek-2/|אולם תצוגה ג’אקו ירושלים|גנרל פייר קניג 36, ירושלים, ישראל|*8650|https://waze.com/ul?ll=31.7515265,35.21351420000001&navigate=yes&zoom=9",
+        "/show_rooms/givat-ram-jerusalem/|אולם תצוגה ג’אקו מגדל רם, גבעת שאול ירושלים|נחום חפצדי 17, ירושלים, ישראל|*8650|https://waze.com/ul?ll=31.7890296,35.1824318&navigate=yes&zoom=9",
+        "/show_rooms/holon-2-2/|אולם תצוגה ג’אקו מוטורס חולון|הפלד 33, חולון, ישראל|6100*|https://waze.com/ul?ll=32.0195207,34.8008897&navigate=yes&zoom=9",
+        "/show_rooms/tveria/|אולם תצוגה ג'אקו מיצ'יגן טבריה|הרב חיים סמאגא 4, טבריה, ישראל|04-6720315|https://waze.com/ul?ll=32.78717900000001,35.5380638&navigate=yes&zoom=9",
+        "/show_rooms/niron-hedera-2/|אולם תצוגה ג'אקו נירון חדרה|צה\"ל 46, חדרה, ישראל|*6039|https://waze.com/ul?ll=32.4403054,34.9314514&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west-2-2/|אולם תצוגה ג’אקו נתניה|דוד פנקס 25, נתניה, ישראל|09-8621177|https://waze.com/ul?ll=32.3187696,34.8744582&navigate=yes&zoom=9",
+        "/show_rooms/afula-2/|אולם תצוגה ג’אקו עפולה|קידרון 1, עפולה|04-6093000|https://waze.com/ul?ll=32.606847,35.298866&navigate=yes&zoom=9",
+        "/show_rooms/petach-tiqva-2/|אולם תצוגה ג’אקו פתח תקווה|גזית 7, פתח תקווה, ישראל|*8650|https://waze.com/ul?ll=32.1044224,34.8979223&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west-2/|אולם תצוגה ג’אקו ראשון לציון|יעקב פריימן 5, ראשון לציון, ישראל|*8650|https://waze.com/ul?ll=31.9762711,34.8104464&navigate=yes&zoom=9",
+        "/show_rooms/rehovot-2/|אולם תצוגה ג’אקו רחובות|המפוח 12, רחובות|08-9361770|https://waze.com/ul?ll=31.887009,34.78072&navigate=yes&zoom=9",
+        "/show_rooms/ashkelon-2/|אולם תצוגה ג'אקו רפי עמירה ובניו אשקלון|הפנינים 3, אשקלון, ישראל|08-6750304|https://waze.com/ul?ll=31.661936,34.597416&navigate=yes&zoom=9",
+        "/show_rooms/kyriat-shmona/|אולם תצוגה ג'אקו שרוני מוטורס ק\"ש|אזור תעשיה צפוני, קריית שמונה|04-6817444|https://waze.com/ul?ll=33.216187,35.587746&navigate=yes&zoom=9",
+        "/show_rooms/hyundai-tlv-2/|אולם תצוגה ג’אקו תל אביב|רח' קרימנצקי 1, תל אביב|*8650|https://waze.com/ul?ll=32.0670328,34.7935117&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "OMODA",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/omoda/",
+      "rows": [
+        "/show_rooms/eilat-2-2/|אולם תצוגה אומודה אדומית אילת|הדייג 20, אילת, ישראל|08-6378333|https://waze.com/ul?ll=29.5691727,34.9599088&navigate=yes&zoom=9",
+        "/show_rooms/modiin-2/|אולם תצוגה אומודה אוטוויק מודיעין|המכונאי 17, מודיעין מכבים רעות, ישראל|08-6775050|https://waze.com/ul?ll=31.8870839,34.9603707&navigate=yes&zoom=9",
+        "/show_rooms/ashdod-2-2/|אולם תצוגה אומודה אשדוד|האורגים 2, אשדוד, ישראל|08-8638649|https://waze.com/ul?ll=31.8104884,34.6639187&navigate=yes&zoom=9",
+        "/show_rooms/beer-sheva-2-2/|אולם תצוגה אומודה באר שבע|סדנא 3, באר שבע, ישראל|*8649|https://waze.com/ul?ll=31.2514897,34.8223914&navigate=yes&zoom=9",
+        "/show_rooms/ein-hamifratz-2/|אולם תצוגה אומודה גפי מוטורס בע\"מ עכו|עין המפרץ סנטר, עין המפרץ, ישראל|04-9955000|https://waze.com/ul?ll=32.900316,35.1009164&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west-2-3-2/|אולם תצוגה אומודה הרצליה|הסדנאות 10, הרצליה, ישראל|09-7766300|https://waze.com/ul?ll=32.1609354,34.8063115&navigate=yes&zoom=9",
+        "/show_rooms/haifa-check-post-2-2/|אולם תצוגה אומודה חיפה|גוליאלמו מרקוני 18, חיפה, ישראל|04-9955000|https://waze.com/ul?ll=32.7894032,35.0337384&navigate=yes&zoom=9",
+        "/show_rooms/shaked-bnei-brak-2/|אולם תצוגה אומודה י.שקד בני ברק|דרך ששת הימים 22, בני ברק, ישראל|03-7719100|https://waze.com/ul?ll=32.098444,34.826958&navigate=yes&zoom=9",
+        "/show_rooms/jeruslaem-autoweek-2-2/|אולם תצוגה אומודה ירושלים|גנרל פייר קניג 36, ירושלים, ישראל|*8649|https://waze.com/ul?ll=31.7515265,35.21351420000001&navigate=yes&zoom=9",
+        "/show_rooms/givat-ram-jerusalem-2/|אולם תצוגה אומודה מגדל רם, גבעת שאול ירושלים|נחום חפצדי 17, ירושלים, ישראל|*8649|https://waze.com/ul?ll=31.7890296,35.1824318&navigate=yes&zoom=9",
+        "/show_rooms/holon-2-2-2/|אולם תצוגה אומודה מוטורס חולון|הפלד 33, חולון, ישראל|6100*|https://waze.com/ul?ll=32.0195207,34.8008897&navigate=yes&zoom=9",
+        "/show_rooms/tveria-2/|אולם תצוגה אומודה מיצ'יגן טבריה|הרב חיים סמאגא 4, טבריה, ישראל|04-6720315|https://waze.com/ul?ll=32.78717900000001,35.5380638&navigate=yes&zoom=9",
+        "/show_rooms/niron-hedera/|אולם תצוגה אומודה נירון חדרה|צה\"ל 46, חדרה, ישראל|*6039|https://waze.com/ul?ll=32.4403054,34.9314514&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west-2-2-2/|אולם תצוגה אומודה נתניה|דוד פנקס 25, נתניה, ישראל|09-8621177|https://waze.com/ul?ll=32.3187696,34.8744582&navigate=yes&zoom=9",
+        "/show_rooms/afula-2-2/|אולם תצוגה אומודה עפולה|קידרון 1, עפולה|04-6093000|https://waze.com/ul?ll=32.606847,35.298866&navigate=yes&zoom=9",
+        "/show_rooms/petach-tiqva-2-2/|אולם תצוגה אומודה פתח תקווה|גזית 7, פתח תקווה, ישראל|*8649|https://waze.com/ul?ll=32.1044224,34.8979223&navigate=yes&zoom=9",
+        "/show_rooms/rishon-lezion-west-2-4/|אולם תצוגה אומודה ראשון לציון|יעקב פריימן 5, ראשון לציון, ישראל|*8649|https://waze.com/ul?ll=31.9762711,34.8104464&navigate=yes&zoom=9",
+        "/show_rooms/rehovot-2-2/|אולם תצוגה אומודה רחובות|המפוח 12, רחובות|08-9361770|https://waze.com/ul?ll=31.887009,34.78072&navigate=yes&zoom=9",
+        "/show_rooms/ashkelon-2-2/|אולם תצוגה אומודה רפי עמירה ובניו אשקלון|הפנינים 3, אשקלון, ישראל|08-6750304|https://waze.com/ul?ll=31.661936,34.597416&navigate=yes&zoom=9",
+        "/show_rooms/kyriat-shmona-2/|אולם תצוגה אומודה שרוני מוטורס ק\"ש|אזור תעשיה צפוני, קריית שמונה|04-6817444|https://waze.com/ul?ll=33.216187,35.587746&navigate=yes&zoom=9",
+        "/show_rooms/hyundai-tlv-2-2/|אולם תצוגה אומודה תל אביב|רח' קרימנצקי 1, תל אביב|*8649|https://waze.com/ul?ll=32.0670328,34.7935117&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "ORA",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/ora/",
+      "rows": [
+        "/show_rooms/ora-ashdod/|אולם תצוגה אורה אשדוד|אורגים 2, אשדוד|08-8638658|https://waze.com/ul?ll=31.8104884,34.6639187&navigate=yes&zoom=9",
+        "/show_rooms/ora-ashkelon/|אולם תצוגה אורה אשקלון|הפנינים 3, אשקלון, ישראל|08-6751144|https://waze.com/ul?ll=31.661936,34.597416&navigate=yes&zoom=9",
+        "/show_rooms/ora-beer-sheva/|אולם תצוגה אורה באר שבע|עמל 2, ב\"ש, ישראל|08-6250904|https://waze.com/ul?ll=31.2485939,34.82348959999999&navigate=yes&zoom=9",
+        "/show_rooms/ora-bnei-brak/|אולם תצוגה אורה בני ברק|דרך ששת הימים 22, בני ברק, ישראל|9241*|https://waze.com/ul?ll=32.098444,34.826958&navigate=yes&zoom=9",
+        "/show_rooms/ora-herzelia/|אולם תצוגה אורה הרצליה|ישעיהו ליבוביץ' 7, הרצליה, ישראל|09-7766300|https://waze.com/ul?ll=32.1618577,34.805932&navigate=yes&zoom=9",
+        "/show_rooms/ora-hadera/|אולם תצוגה אורה חדרה|קומבה 10, חדרה, ישראל|04-6336666|https://waze.com/ul?ll=32.4464302,34.9111328&navigate=yes&zoom=9",
+        "/show_rooms/ora-holon/|אולם תצוגה אורה חולון|גזית 7, פתח תקווה, ישראל|03-5583880|https://waze.com/ul?ll=32.10436629999999,34.8979111&navigate=yes&zoom=9",
+        "/show_rooms/ora-haifa-2/|אולם תצוגה אורה חיפה דרך יפו|דרך יפו 145א, חיפה, ישראל|04-8522222|https://waze.com/ul?ll=32.826968,34.986084&navigate=yes&zoom=9",
+        "/show_rooms/ora-jerusalem/|אולם תצוגה אורה ירושלים|גנרל פייר קניג 36, ירושלים, ישראל|6853*|https://waze.com/ul?ll=31.7515265,35.21351420000001&navigate=yes&zoom=9",
+        "/show_rooms/ora-modiin/|אולם תצוגה אורה מודיעין|המכונאי 19, מודיעין מכבים רעות, ישראל|08-9966677|https://waze.com/ul?ll=31.8861061,34.9597995&navigate=yes&zoom=9",
+        "/show_rooms/ora-nof-hagalil/|אולם תצוגה אורה נוף הגליל|העבודה 12, נוף הגליל, ישראל|5431*|https://waze.com/ul?ll=32.7138669,35.3346703&navigate=yes&zoom=9",
+        "/show_rooms/ora-nesher/|אולם תצוגה אורה נשר (לשעבר צ'ק פוסט)|דרך בר יהודה 30, נשר, ישראל|04-8592021|https://waze.com/ul?ll=32.78099,35.0347272&navigate=yes&zoom=9",
+        "/show_rooms/ora-netanya/|אולם תצוגה אורה נתניה|דוד פנקס 21, נתניה, ישראל|09-8621177|https://waze.com/ul?ll=32.3193283,34.8744812&navigate=yes&zoom=9",
+        "/show_rooms/ora-akko/|אולם תצוגה אורה עכו|עין המפרץ סנטר, עין המפרץ, ישראל|04-9955000|https://waze.com/ul?ll=32.900316,35.1009164&navigate=yes&zoom=9",
+        "/show_rooms/ora-afula/|אולם תצוגה אורה עפולה|קדרון 1, עפולה, ישראל|04-6093021|https://waze.com/ul?ll=32.606847,35.298866&navigate=yes&zoom=9",
+        "/show_rooms/ora-petah-tikva/|אולם תצוגה אורה פתח תקווה|גזית 7, פתח תקווה, ישראל|4505*|https://waze.com/ul?ll=32.10436629999999,34.8979111&navigate=yes&zoom=9",
+        "/show_rooms/ora-rishon/|אולם תצוגה אורה ראשון לציון|יעקב פריימן 5, ראשון לציון, ישראל|6853*|https://waze.com/ul?ll=31.9762711,34.8104464&navigate=yes&zoom=9",
+        "/show_rooms/ora-raanana/|אולם תצוגה אורה רעננה|השיזף 1, רעננה, ישראל|09-7766400|https://waze.com/ul?ll=32.1929349,34.8841962&navigate=yes&zoom=9",
+        "/show_rooms/ora-tel-aviv/|אולם תצוגה אורה תל אביב|רחוב אבן גבירול 32, תל אביב-יפו, ישראל|6853*|https://waze.com/ul?ll=32.0757267,34.7818155&navigate=yes&zoom=9",
+        "/show_rooms/ora-tel-aviv-yigal-alon/|אולם תצוגה אורה תל אביב יגאל אלון|יונה קרמנצקי 1, תל אביב-יפו, ישראל|03-5380700|https://waze.com/ul?ll=32.0671323,34.7931512&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/mercedes/",
+      "rows": [
+        "/show_rooms/mercedes-ashdod/|אולם תצוגה מרצדס בנץ אשדוד|היהלומים 19, אשדוד|08-6906603|https://waze.com/ul?ll=31.816167,34.6600645&navigate=yes&zoom=9",
+        "/show_rooms/mercedes-beer-sheva/|אולם תצוגה מרצדס בנץ באר שבע|רוטשילד 15, באר שבע|08-9512403|https://waze.com/ul?ll=31.242886,34.802012&navigate=yes&zoom=9",
+        "/show_rooms/mercedes-herzelia/|אולם תצוגה מרצדס בנץ הרצליה|הסדנאות 13, הרצליה|09-7647777|https://waze.com/ul?ll=32.1593823,34.8058754&navigate=yes&zoom=9",
+        "/show_rooms/mercedes-jerusalem/|אולם תצוגה מרצדס בנץ ירושלים|גנרל פייר קניג 36, ירושלים, ישראל|02-6799703|https://waze.com/ul?ll=31.7515265,35.2135142&navigate=yes&zoom=9",
+        "/show_rooms/mercedes-kfar-kana/|אולם תצוגה מרצדס בנץ כפר כנא|אזור תעשייה, כפר כנא, ישראל|04-9895444|https://waze.com/ul?ll=32.75839599999999,35.337981&navigate=yes&zoom=9",
+        "/show_rooms/mercedes-carmiel/|אולם תצוגה מרצדס בנץ כרמיאל|היוצרים 14, כרמיאל|04-8432021|https://waze.com/ul?ll=32.9240269,35.3110756&navigate=yes&zoom=9",
+        "/show_rooms/mercedes-nesher/|אולם תצוגה מרצדס בנץ נשר|דרך בר יהודה 30, נשר, ישראל|04-8522233|https://waze.com/ul?ll=32.78099,35.0347272&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "Genesis",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/genesis/",
+      "rows": [
+        "/show_rooms/genesis-herzelia/|אולם תצוגה ג׳נסיס הרצליה|אריה שנקר 7, הרצליה|3314*|https://waze.com/ul?ll=32.1592829,34.8090175&navigate=yes&zoom=9",
+        "/show_rooms/genesis-haifa/|אולם תצוגה ג׳נסיס חיפה|שד' ההסתדרות 34, חיפה|3314*|https://waze.com/ul?ll=32.7899698,35.0331804&navigate=yes&zoom=9",
+        "/show_rooms/genesis-rishon-lezion/|אולם תצוגה ג’נסיס ראשל”צ|דרך המכבים 28, ראשון לציון, ישראל|03-9691928|https://waze.com/ul?ll=31.9778837,34.8087626&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": "smart",
+      "activity": "new",
+      "source": "https://www.colmobil.co.il/show-rooms/smart/",
+      "rows": [
+        "/show_rooms/smart-ashdod/|אולם תצוגה סמארט אשדוד|היהלומים 19, אשדוד, ישראל|08-6906603|https://waze.com/ul?ll=31.8161806,34.660039&navigate=yes&zoom=9",
+        "/show_rooms/smart-beer-sheva/|אולם תצוגה סמארט באר שבע|רוטשילד 15, באר שבע|08-9512403|https://waze.com/ul?ll=31.242886,34.802012&navigate=yes&zoom=9",
+        "/show_rooms/smart-herzelia/|אולם תצוגה סמארט הרצליה|הסדנאות 13, הרצליה|09-7647777|https://waze.com/ul?ll=32.1593823,34.8058754&navigate=yes&zoom=9",
+        "/show_rooms/smart-jerusalem/|אולם תצוגה סמארט ירושלים|גנרל פייר קניג 36, ירושלים, ישראל|02-6799703|https://waze.com/ul?ll=31.7515265,35.2135142&navigate=yes&zoom=9",
+        "/show_rooms/smart-nesher/|אולם תצוגה סמארט נשר|דרך בר יהודה 30, נשר, ישראל|04-8522233|https://waze.com/ul?ll=32.78099,35.0347272&navigate=yes&zoom=9",
+        "/show_rooms/smart-rishon-letzion/|אולם תצוגה סמארט ראשל\"צ|דרך המכבים 28, ראשון לציון, ישראל|03-9661288|https://waze.com/ul?ll=31.9778837,34.8087626&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": null,
+      "activity": "trade",
+      "source": "https://www.colmobil.co.il/trade/centers/",
+      "rows": [
+        "/trade_centers/ashdod/|מתחם מכירה טרייד אשדוד|הבושם 10, אשדוד, ישראל|0722160700|https://waze.com/ul?ll=31.8198014,34.6640067&navigate=yes&zoom=9",
+        "/trade_centers/beer-sheva/|מתחם מכירה טרייד באר שבע|עמל 1, באר שבע, ישראל|0722160700|https://waze.com/ul?ll=31.2498239,34.82279219999999&navigate=yes&zoom=9",
+        "/trade_centers/bnei-brak/|מתחם מכירה טרייד בני ברק|ששת הימים 22, בני ברק|0722160700|https://waze.com/ul?ll=32.098444,34.826958&navigate=yes&zoom=9",
+        "/trade_centers/herzelia/|מתחם מכירה טרייד הרצליה|ישעיהו ליבוביץ' 7, הרצליה, ישראל|0722160700|https://waze.com/ul?ll=32.1618577,34.805932&navigate=yes&zoom=9",
+        "/trade_centers/hadera/|מתחם מכירה טרייד חדרה|צה\"ל 51, חדרה, ישראל|0722160700|https://waze.com/ul?ll=32.4408045,34.93119739999999&navigate=yes&zoom=9",
+        "/trade_centers/jerusalem/|מתחם מכירה טרייד ירושלים|צרת 8, ירושלים, ישראל|0722160700|https://waze.com/ul?ll=31.752256,35.212592&navigate=yes&zoom=9",
+        "/trade_centers/modiin/|מתחם מכירה טרייד מודיעין|המכונאי 21, מודיעין מכבים רעות, ישראל|0722160700|https://waze.com/ul?ll=31.886181,34.95972&navigate=yes&zoom=9",
+        "/trade_centers/rishon-letzion-east/|מתחם מכירה טרייד מזרח ראשון לציון|דרך המכבים 48, ראשון לציון, ישראל|0722160700|https://waze.com/ul?ll=31.9811559,34.809778&navigate=yes&zoom=9",
+        "/trade_centers/rishon-lezion-west/|מתחם מכירה טרייד מערב ראשון לציון|אצ\"ל 51, ראשון לציון, ישראל|0722160700|https://waze.com/ul?ll=31.99057479999999,34.76052769999999&navigate=yes&zoom=9",
+        "/trade_centers/nesher/|מתחם מכירה טרייד נשר|השיש 10, נשר, ישראל|0722160700|https://waze.com/ul?ll=32.7823297,35.0351877&navigate=yes&zoom=9",
+        "/trade_centers/netanya/|מתחם מכירה טרייד נתניה|האורג 17, נתניה, ישראל|0722160700|https://waze.com/ul?ll=32.3188416,34.8757707&navigate=yes&zoom=9",
+        "/trade_centers/akko/|מתחם מכירה טרייד עכו|עין המפרץ סנטר, עין המפרץ, ישראל|0722160700|https://waze.com/ul?ll=32.900316,35.1009164&navigate=yes&zoom=9",
+        "/trade_centers/afula/|מתחם מכירה טרייד עפולה|קדרון 1, עפולה, ישראל|0722160700|https://waze.com/ul?ll=32.606847,35.298866&navigate=yes&zoom=9",
+        "/trade_centers/petah-tikva/|מתחם מכירה טרייד פתח תקווה|הסיבים 1, פתח תקווה, ישראל|0722160700|https://waze.com/ul?ll=32.0917406,34.8577577&navigate=yes&zoom=9",
+        "/trade_centers/ranana/|מתחם מכירה טרייד רעננה|כלמוביל טרייד אין, הנופר 6, רעננה, ישראל|0722160700|https://waze.com/ul?ll=32.194051,34.8848982&navigate=yes&zoom=9"
+      ]
+    },
+    {
+      "brand": null,
+      "activity": "luxury",
+      "source": "https://colmobil-luxury-trade.co.il/centers/",
+      "rows": [
+        "/centers/tradeinpremiumpetachtikva/|מתחם מכירה פתח תקווה|הסיבים 1, פתח תקווה, ישראל|03-9154141|https://waze.com/ul?ll=32.0917406,34.8577577&navigate=yes&zoom=9",
+        "/centers/tradeinpremiumrishonletsion-copy/|מתחם מכירה ראשון לציון מערב|רחוב אצ\"ל 51, ראשון לציון, ישראל|03-9677786|https://waze.com/ul?ll=31.99057479999999,34.7605277&navigate=yes&zoom=9",
+        "/centers/tradeinpremiumrishonletsion/|מתחם מכירה ראשון לציון מזרח|דרך המכבים 28, ראשון לציון, ישראל|03-9661288|https://waze.com/ul?ll=31.9778837,34.8087626&navigate=yes&zoom=9",
+        "/centers/tradeinpremium-kfar-kana/|מתחם מכירה כפר כנא|אבן רושד, כפר כנא, ישראל|04-6519991|https://waze.com/ul?ll=32.756456,35.336814&navigate=yes&zoom=9",
+        "/centers/tradeinpremiumbroshbeersheva/|מתחם מכירה באר שבע|שיפון 1, באר שבע, ישראל|08-6908547|https://waze.com/ul?ll=31.222655,34.81728650000001&navigate=yes&zoom=9"
+      ]
+    }
+  ],
+  "detail_checks": [
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/jeruslaem-autoweek/",
+      "url": "https://www.colmobil.co.il/show_rooms/jeruslaem-autoweek/",
+      "contacts": [
+        {
+          "href": "tel:9502*",
+          "text": "9502*"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.7508294,35.2081804&navigate=yes",
+          "text": "האומן 19 - ירושלים"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.7508294,35.2081804&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.7508294,35.2081804&navigate=yes",
+          "text": "האומן 19, ירושלים"
+        },
+        {
+          "href": "tel:9502*",
+          "text": "9502*"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה יונדאי אוטוויק ירושלים",
+      "intro": [
+        "אוטוויק – מרכז מכירה ושירות יונדאי ירושלים הוקם בשנת 1988, על ידי ויקו אסולין, שהוא הבעלים של המרכז עד היום. המרכז פועל במבנה מרווח בן שלוש קומות ברחוב האומן 19 בתלפיות:  בקומת הקרקע נמצא מרכז שירות יונדאי המטפל ברכבי יונדאי. בקומה השניה – אולם המכירה של רכבי יונדאי ובו תצוגת רכבים מודרנית עם מבחר דגמי מכוניות, ובקומה השלישית – חניון פרטי לשימוש הלקוחות. אולם תצוגה – אוטוויק ירושלים מציע צוות סוכנים מיומן ואדיב, אולם תצוגה יונדאי מודרני ונוח, וצוות  יועצי שירות ומתאמות שירות, העומדים בקשר שוטף עם הלקוחות. במרכז השירות קיימות מחלקת מכונאות, מחלקת פחחות וצבע, מחלקת חשמל ומחלקת דיאגנוסטיקה. בין השירותים הייחודיים שמוצעים באוטוויק: איסוף של הרכב מבית הלקוח והחזרתו בתום הטיפול, מונית חינם לבית הלקוח או למקום העבודה בעת מסירת הרכב, שירות העברת מבחן הרישוי השנתי (טסט), חניון שמור 24/7, חדר המתנה מרווח בו ניתן ליהנות משתייה חמה ומגישה לאינטרנט אלחוטי, שירות חשבונית במייל ועוד.\nהנכם מוזמנים.",
+        "שעות פתיחה",
+        "איש קשר\nאליאב"
+      ]
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/eilat/",
+      "url": "https://www.colmobil.co.il/show_rooms/eilat/",
+      "contacts": [
+        {
+          "href": "tel:086378333",
+          "text": "08-6378333"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5694154,34.9599223&navigate=yes",
+          "text": "הדייג 20 - אילת"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5694154,34.9599223&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5694154,34.9599223&navigate=yes",
+          "text": "הדייג 20, אילת"
+        },
+        {
+          "href": "tel:086378333",
+          "text": "08-6378333"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה יונדאי אילת",
+      "intro": [
+        "מרכז מכירה ושירות אדומית הוקם בשנת 1982 על ידי ניסים ודורית קושוקרו והוא מרכז שירות וותיק ברשת מרכזי השירות של קבוצת כלמוביל.\nמרכז שירות יונדאי אדומית עבר למשכנו הנוכחי בשנת 2000, והפך למרכז השירות החדיש והמתקדם ביותר באילת. מרכז השירות מטפל בשלושת המותגים ובהם רכבי יונדאי ומבצע עבודות מכונאות, אבחון ושיפוץ מכללים. את מרכז השירות מנהל רועי קושוקרו, הנדסאי רכב אשר בילה את שנות ילדותו ונערותו במרכז השירות המטפל במגוון דגמי מכוניות. בצמוד למרכז השירות פועלת סוכנות המכירות המציעה אולם תצוגת רכבים מפואר בניהולה של דורית קושוקרו. אולם תצוגה יונדאי באילת מציע ללקוחות אדומית יחס ואווירה משפחתית חמה. צוות מרכז השירות מונה כ-13 עובדים ותיקים ומיומנים המנוהלים ע\"י שני הנדסאי רכב בעלי הסמכות וניסיון מקצועי עשיר בענף הרכב. במרכז שירות אדומית מועסקת כ- 13 שנים יועצת השירות רחלי מזרחי. רחלי זכתה בשנה האחרונה במקום הראשון בתחרות השירות הארצית, ובמקום השני בתחרות השירות העולמית של יונדאי, אשר התקיימה בקוריאה. מעבר ליכולותיה האישיות הגבוהות, ממחישה הצטיינותה של רחלי את הגישה השירותית המקובלת במרכז השירות החל מיום הקמתו. הנכם מוזמנים לאולם אולם תצוגה יונדאי באילת.",
+        "שעות פתיחה"
+      ]
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/ashdod/",
+      "url": "https://www.colmobil.co.il/show_rooms/ashdod/",
+      "contacts": [
+        {
+          "href": "tel:088638638",
+          "text": "08-8638638"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8198014,34.6640067&navigate=yes",
+          "text": "הבושם 10 - אשדוד"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8198014,34.6640067&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8198014,34.6640067&navigate=yes",
+          "text": "הבושם 10, אשדוד"
+        },
+        {
+          "href": "tel:088638638",
+          "text": "08-8638638"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה יונדאי אשדוד",
+      "intro": [
+        "יוסי כהן, בעלים של מרכז מכירה ושירות יונדאי אשדוד החל את דרכו המקצועית בשנת 1986 במוסך אשר נתן שירות  למגוון רחב של דגמי מכוניות וכלי רכב  מיצרנים שונים. בשנת 1998 נוצר החיבור עם חברת כלמוביל ונפתח מרכז שירות יונדאי לתיקוני רכבי יונדאי, וב- 2008 הוקם מרכז המכירה בהתאם לסטנדרטים הגבוהים של אולמות תצוגה של יונדאי בארץ. במרכז מגוון רחב של שירותים: רכישת רכב חדש וטרייד אין באולם תצוגה יונדאי,  במוסך: שירות תיקונים וטיפול לרכב הכולל : מכונאות, חשמל,  מיזוג אויר , דיאגנוסטיקה ,פחחות וצבע ,מכירת אביזרי רכב ועוד.",
+        "אולם תצוגה יונדאי באשדוד מציע תצוגת רכבים מודרנית של רכבי יונדאי וצוות מקצועי המלווה את הלקוח מרגע הכניסה. הנכם מוזמנים לאולם תצוגה יונדאי באשדוד.",
+        "שעות פתיחה"
+      ]
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/ashkelon/",
+      "url": "https://www.colmobil.co.il/show_rooms/ashkelon/",
+      "contacts": [
+        {
+          "href": "tel:086750304",
+          "text": "08-6750304"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.661936,34.597416&navigate=yes",
+          "text": "הפנינים 3 - אשקלון"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.661936,34.597416&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.661936,34.597416&navigate=yes",
+          "text": "הפנינים 3, אשקלון"
+        },
+        {
+          "href": "tel:086750304",
+          "text": "08-6750304"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה יונדאי אשקלון",
+      "intro": [
+        "מרכז המכירה והשירות הוקם בשנת 2005 על ידי רפי עמירה. המרכז מספק שירותי מוסך (מרכז שירות יונדאי) ושירותי מכירה (אולם תצוגה יונדאי) בהם תוכלו ליהנות משירות מפנק, סבלני, מקצועי ואמין.",
+        "אולם תצוגה יונדאי באשקלון פועל בהתאם לסטנדרטים הגבוהים הנהוגים בכל אולמות התצוגה של יונדאי, ומציע תצוגת רכבים מודרנית של רכבי יונדאי וצוות מקצועי וסבלני המלווה את הלקוח מרגע הכניסה. הנכם מוזמנים לאולם תצוגה יונדאי באשקלון ובו מגוון דגמי מכוניות יונדאי.",
+        "שעות פתיחה"
+      ]
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/beer-sheva/",
+      "url": "https://www.colmobil.co.il/show_rooms/beer-sheva/",
+      "error": "Error: Timed out after 10000ms waiting for CDP command Page.navigate."
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/bnei-brak/",
+      "url": "https://www.colmobil.co.il/show_rooms/bnei-brak/",
+      "error": "Error: Timed out after 10000ms waiting for CDP command Page.navigate."
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/herzeliya/",
+      "url": "https://www.colmobil.co.il/show_rooms/herzeliya/",
+      "error": "Error: Timed out after 10000ms waiting for CDP command Page.navigate."
+    },
+    {
+      "source": "https://www.colmobil.co.il/show-rooms/hyundai/",
+      "brand": "Hyundai",
+      "activity": "new",
+      "path": "/show_rooms/hadera/",
+      "url": "https://www.colmobil.co.il/show_rooms/hadera/",
+      "error": "Error: Timed out after 10000ms waiting for CDP command Page.navigate."
+    },
+    {
+      "url": "https://www.colmobil.co.il/show_rooms/mitsubishi_eilat/",
+      "brand": "Mitsubishi",
+      "contacts": [
+        {
+          "href": "tel:086378333",
+          "text": "08-6378333"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5694154,34.9599223&navigate=yes",
+          "text": "הדייג 20 - אילת"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5694154,34.9599223&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5694154,34.9599223&navigate=yes",
+          "text": "הדייג 20, אילת"
+        },
+        {
+          "href": "tel:086378333",
+          "text": "08-6378333"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה מיצובישי אילת"
+    },
+    {
+      "brand": "JAECOO",
+      "contacts": [
+        {
+          "href": "tel:046093026",
+          "text": "04-6093026"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5691727,34.9599088&navigate=yes",
+          "text": "הדייג 20 - אילת"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5691727,34.9599088&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5691727,34.9599088&navigate=yes",
+          "text": "הדייג 20, אילת"
+        },
+        {
+          "href": "tel:086378333",
+          "text": "04-6093000"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה ג’אקו אדומית אילת",
+      "url": "https://www.colmobil.co.il/show_rooms/eilat-2/"
+    },
+    {
+      "brand": "OMODA",
+      "contacts": [
+        {
+          "href": "tel:046093026",
+          "text": "04-6093026"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5691727,34.9599088&navigate=yes",
+          "text": "הדייג 20 - אילת"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5691727,34.9599088&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=29.5691727,34.9599088&navigate=yes",
+          "text": "הדייג 20, אילת"
+        },
+        {
+          "href": "tel:086378333",
+          "text": "04-6093000"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה אומודה אדומית אילת",
+      "url": "https://www.colmobil.co.il/show_rooms/eilat-2-2/"
+    },
+    {
+      "brand": "ORA",
+      "contacts": [
+        {
+          "href": "tel:088638658",
+          "text": "08-8638658"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8104884,34.6639187&navigate=yes",
+          "text": "האורגים 2 - אשדוד"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8104884,34.6639187&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8104884,34.6639187&navigate=yes",
+          "text": "האורגים 2, אשדוד"
+        },
+        {
+          "href": "tel:088638658",
+          "text": "08-8638658"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה אורה אשדוד",
+      "url": "https://www.colmobil.co.il/show_rooms/ora-ashdod/"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "contacts": [
+        {
+          "href": "tel:086906603",
+          "text": "08-6906603"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.816167,34.6600645&navigate=yes",
+          "text": "היהלומים 19 - אשדוד"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.816167,34.6600645&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.816167,34.6600645&navigate=yes",
+          "text": "היהלומים 19, אשדוד"
+        },
+        {
+          "href": "tel:086906603",
+          "text": "08-6906603"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה מרצדס בנץ אשדוד",
+      "url": "https://www.colmobil.co.il/show_rooms/mercedes-ashdod/"
+    },
+    {
+      "brand": "Genesis",
+      "contacts": [
+        {
+          "href": "tel:3314*",
+          "text": "3314*"
+        },
+        {
+          "href": "https://waze.com/ul?q=32.1592829,34.8090175&navigate=yes",
+          "text": "רחוב אריה שנקר 7 - הרצליה"
+        },
+        {
+          "href": "https://waze.com/ul?q=32.1592829,34.8090175&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=32.1592829,34.8090175&navigate=yes",
+          "text": "רחוב אריה שנקר 7, הרצליה"
+        },
+        {
+          "href": "tel:3314*",
+          "text": "3314*"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה ג׳נסיס הרצליה",
+      "url": "https://www.colmobil.co.il/show_rooms/genesis-herzelia/"
+    },
+    {
+      "brand": "smart",
+      "contacts": [
+        {
+          "href": "tel:086906603",
+          "text": "08-6906603"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8161806,34.660039&navigate=yes",
+          "text": "היהלומים 19 - אשדוד"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8161806,34.660039&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8161806,34.660039&navigate=yes",
+          "text": "היהלומים 19, אשדוד"
+        },
+        {
+          "href": "tel:086906603",
+          "text": "08-6906603"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "אולם תצוגה סמארט אשדוד",
+      "url": "https://www.colmobil.co.il/show_rooms/smart-ashdod/"
+    },
+    {
+      "activity": "trade",
+      "contacts": [
+        {
+          "href": "tel:0722160700",
+          "text": "0722160700"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8198014,34.6640067&navigate=yes",
+          "text": "הבושם 10 - אשדוד"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8198014,34.6640067&navigate=yes",
+          "text": "ניווט>"
+        },
+        {
+          "href": "https://waze.com/ul?q=31.8198014,34.6640067&navigate=yes",
+          "text": "הבושם 10, אשדוד"
+        },
+        {
+          "href": "tel:0722160700",
+          "text": "0722160700"
+        },
+        {
+          "href": "tel:*8586",
+          "text": "8586*"
+        }
+      ],
+      "h1": "מתחם מכירה טרייד אשדוד",
+      "url": "https://www.colmobil.co.il/trade_centers/ashdod/"
+    },
+    {
+      "activity": "luxury",
+      "contacts": [
+        {
+          "href": "https://waze.com/ul?ll=32.0917406,34.8577577&navigate=yes&zoom=9",
+          "text": "הסיבים 1, פתח תקווה, ישראל"
+        }
+      ],
+      "url": "https://colmobil-luxury-trade.co.il/centers/tradeinpremiumpetachtikva/"
+    }
+  ]
+}
