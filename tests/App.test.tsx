@@ -3,7 +3,7 @@ import { render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from '../src/App'
 import { loadDataset } from '../src/lib/load'
-import { dataset, locality } from './fixtures'
+import { dataset, locality, offering } from './fixtures'
 vi.mock('../src/lib/load', () => ({ loadDataset: vi.fn() }))
 const loader = vi.mocked(loadDataset)
 beforeEach(() => {
@@ -30,6 +30,19 @@ it('immediately switches activity, resets an incompatible brand, and preserves l
   expect(screen.getByLabelText('מותג')).toBeDisabled()
   expect(screen.getByText('a-t')).toBeInTheDocument()
   expect(screen.getByRole('combobox', { name: 'יישוב הלקוח' })).toHaveValue('רעננה')
+})
+it('offers one combined OMODA / JAECOO filter and keeps both matching brands', async () => {
+  const d = dataset()
+  d.offerings = [offering('omoda', 'A', 'new', 'OMODA'), offering('jaecoo', 'B', 'new', 'JAECOO')]
+  loader.mockResolvedValue(d)
+  render(<App />)
+  await choose()
+  expect(screen.queryByRole('option', { name: 'OMODA' })).not.toBeInTheDocument()
+  expect(screen.queryByRole('option', { name: 'JAECOO' })).not.toBeInTheDocument()
+  await userEvent.selectOptions(screen.getByLabelText('מותג'), 'OMODA-JAECOO')
+  expect(screen.getAllByTestId('result-card')).toHaveLength(2)
+  await userEvent.click(screen.getByRole('button', { name: 'טרייד אין' }))
+  expect(screen.getByLabelText('מותג')).toHaveValue('')
 })
 it('invalidates the selected locality on free-text editing', async () => {
   render(<App />)

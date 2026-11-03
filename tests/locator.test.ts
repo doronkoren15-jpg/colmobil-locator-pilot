@@ -7,6 +7,8 @@ import {
   wazeHref,
   searchLocalities,
   availableBrands,
+  availableBrandFilters,
+  combinedBrand,
 } from '../src/lib/locator'
 import { dataset, locality, location, offering } from './fixtures'
 
@@ -94,6 +96,31 @@ describe('activity–brand filtering and deduplication', () => {
     const r = findNearest(d, locality, 'new', '')
     expect(r.matches.map((m) => m.location.location_id)).toEqual(['6', '5', '4'])
     expect(r.total).toBe(7)
+  })
+  it('combines OMODA and JAECOO filters without changing canonical brands', () => {
+    const d = dataset()
+    d.offerings = [offering('o', 'A', 'new', 'OMODA'), offering('j', 'B', 'new', 'JAECOO')]
+    expect(availableBrands(d, 'new')).toEqual(['JAECOO', 'OMODA'])
+    expect(availableBrandFilters(d, 'new')).toEqual([combinedBrand])
+    expect(
+      findNearest(d, locality, 'new', combinedBrand).matches.map((m) => m.location.location_id),
+    ).toEqual(['A', 'B'])
+    expect(findNearest(d, locality, 'trade', combinedBrand).matches).toHaveLength(0)
+    d.offerings[1].verification = 'pending'
+    expect(findNearest(d, locality, 'new', combinedBrand).matches).toHaveLength(1)
+  })
+  it('returns a shared OMODA and JAECOO location once and excludes unrelated brands', () => {
+    const d = dataset()
+    d.offerings = [
+      offering('o', 'A', 'new', 'OMODA'),
+      offering('j', 'A', 'new', 'JAECOO'),
+      offering('h', 'B', 'new', 'Hyundai'),
+    ]
+    const matches = findNearest(d, locality, 'new', combinedBrand).matches
+    expect(matches).toHaveLength(1)
+    expect(matches[0].offerings.map((o) => o.brand)).toEqual(['OMODA', 'JAECOO'])
+    d.offerings = [offering('j', 'A', 'new', 'JAECOO')]
+    expect(availableBrandFilters(d, 'new')).toEqual([combinedBrand])
   })
   it('breaks exact distance ties deterministically', () => {
     const d = dataset()
