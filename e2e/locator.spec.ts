@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-test('real data: Hebrew selection, all eight brands, live filters, links and no query network', async ({
+test('real data: Hebrew selection, all brand filters, live filters, links and no query network', async ({
   page,
 }, testInfo) => {
   const exceptions: string[] = []
@@ -7,7 +7,15 @@ test('real data: Hebrew selection, all eight brands, live filters, links and no 
   await page.goto('/')
   await expect(page.getByLabel('יישוב הלקוח')).toBeVisible()
   await expect(page.locator('html')).toHaveAttribute('dir', 'rtl')
-  await expect(page.getByLabel('מותג').locator('option')).toHaveCount(9)
+  const logo = page.getByRole('img', { name: 'כלמוביל Colmobil', exact: true })
+  await expect(logo).toBeVisible()
+  expect(await logo.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(
+    true,
+  )
+  await expect(page.getByRole('option', { name: 'OMODA / JAECOO', exact: true })).toHaveCount(1)
+  await expect(page.getByRole('option', { name: 'OMODA', exact: true })).toHaveCount(0)
+  await expect(page.getByRole('option', { name: 'JAECOO', exact: true })).toHaveCount(0)
+  await expect(page.getByLabel('מותג').locator('option')).toHaveCount(8)
   await page.getByLabel('יישוב הלקוח').fill('רענ')
   await page.getByRole('option').filter({ hasText: 'רעננה' }).click()
   await expect(page.getByTestId('result-card')).toHaveCount(3)
@@ -20,8 +28,7 @@ test('real data: Hebrew selection, all eight brands, live filters, links and no 
   for (const brand of [
     'Hyundai',
     'Mitsubishi',
-    'JAECOO',
-    'OMODA',
+    'OMODA-JAECOO',
     'ORA',
     'Mercedes-Benz',
     'Genesis',
