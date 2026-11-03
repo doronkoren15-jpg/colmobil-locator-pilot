@@ -113,7 +113,7 @@ export function findNearest(
       a.location.display_name.localeCompare(b.location.display_name, 'he') ||
       a.location.location_id.localeCompare(b.location.location_id),
   )
-  return { matches: matches.slice(0, 5), excluded, total: matches.length }
+  return { matches: matches.slice(0, 3), excluded, total: matches.length }
 }
 export function phoneHref(raw: string): string | null {
   const phone = raw.replace(/[\s()-]/g, '')
