@@ -175,7 +175,7 @@ export default function App() {
                   </h2>
                   <p>
                     {locality && hasVerifiedCoordinates(locality)
-                      ? 'עד 5 תוצאות · מרחק בקו אווירי מנקודת היישוב'
+                      ? 'עד 3 תוצאות · מרחק בקו אווירי מנקודת היישוב'
                       : 'כל המותגים והפעילויות, בחיפוש אחד'}
                   </p>
                 </div>
